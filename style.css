@@ -65,3 +65,43 @@ img{
 .clear {
   clear:both;
 }
+
+
+/* Responsive */
+
+@media screen and (max-width: 420px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Sezione lezioni */
+  #lezioni {
+    margin: 50px auto;
+  }
+
+  .row {
+    max-width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+  }
+
+  .row h1,
+  .row h3 {
+    text-align: center;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    margin: 0 auto;
+    float: none;
+
+  }
+
+  #lezioni .row img {
+    max-width: 100%;
+    margin: 25px 0;
+  }
+
+
+  /* Sezione steps */
+}
